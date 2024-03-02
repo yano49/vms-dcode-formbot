@@ -286,9 +286,6 @@ i:hover {
 .body-list {
     padding-right: 20px;
 }
-.vid {
-    margin: auto;
-}
 
 .vid video {
     width: 100%;
@@ -297,6 +294,8 @@ i:hover {
 
 .body-passage {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .burger-menu {
@@ -339,9 +338,10 @@ i:hover {
         position: absolute;
         top: 70px;
         right: 20px;
-        background: #624DE7;
+        background: #7967ed;
         width: 150px;
         text-align: center;
+        border-radius: 5%;
     }
 
     .menu.show {
@@ -415,3 +415,4 @@ i:hover {
 .floating-chat-button i {
     font-size: 30px;
 }
+
