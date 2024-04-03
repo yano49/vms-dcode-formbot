@@ -1,6 +1,6 @@
 const titleTag = document.title;
 window.addEventListener("blur", function() {
-    this.document.title = "Come back ";
+    this.document.title = "FormBot";
 });
 
 window.addEventListener("focus", function() {
